@@ -3,6 +3,8 @@ Adds support to [DocPad](https://docpad.org) for writing your templates using [R
 
 Convention:  `.anything.rb|ruby|erb`
 
+**Note:** this plugin provides ruby the template data, but you will not be able to call the template helpers as there is no easy way for ruby to communicate with javascript (which is what DocPad is built with), as such, you will probably want to use the [eco plugin](http://docpad.org/plugin/eco) instead.
+
 
 ## Install
 
