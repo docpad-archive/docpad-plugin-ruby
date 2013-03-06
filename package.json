@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-ruby",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Adds support for the Ruby language to DocPad.",
 	"homepage": "http://docpad.org/plugin/ruby",
 	"keywords": [
@@ -12,10 +12,10 @@
 	],
 	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
 		"url": "https://github.com/bevry/docpad-extras/issues"
@@ -25,15 +25,15 @@
 		"url": "http://github.com/bevry/docpad-extras.git"
 	},
 	"engines" : {
-		"node": ">=0.4.0",
+		"node": ">=0.4",
 		"docpad": "6.x"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"coffee-script": "1.3.x"
+		"coffee-script": "~1.4.0"
 	},
 	"main": "./out/ruby.plugin.js",
 	"scripts": {
-		"test": "node ./test/ruby.test.js"
+		"test": "node ./out/ruby.test.js"
 	}
 }
